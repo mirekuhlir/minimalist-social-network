@@ -1,0 +1,42 @@
+@import '../../style/variables.scss';
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__items {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar__item {
+  margin: 0 1rem 0 0;
+}
+
+.navbar__item a {
+  text-decoration: none;
+  color: #e6e6e6;
+  font-weight: bold;
+}
+
+.navbar__item a:hover {
+  color: $navbar-item-hover-color;
+}
+
+.navbar__buttton {
+  padding: 0;
+  border: none;
+  background-color: $header-backgoud-color-a;
+  font: inherit;
+  font-weight: bold;
+  color: $navbar-item-color;
+  cursor: pointer;
+}
+
+.navbar__buttton:hover {
+  color: $navbar-item-hover-color;
+}

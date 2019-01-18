@@ -1,0 +1,38 @@
+@import '../../style/variables.scss';
+.text-area-input {
+  box-sizing: border-box;
+  resize: none;
+  font-size: 1.1rem;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+
+  //margin-top: 1rem;
+
+  height: 10rem;
+  width: 100%;
+  border: 0;
+  color: $text-large-color-a;
+  background: $input-text-background-color-a;
+  outline: none;
+  font: inherit;
+
+  &:focus {
+    background: $input-text-focus-background-color-a;
+  }
+}
+
+.is-invalid {
+  background-color: $form-text-input-invalid-background-color-a;
+}
+
+.text-area-invalid-feedback {
+  font-size: 0.9rem;
+  color: $text-large-color-a;
+  padding-top: 0.2rem;
+  padding-bottom: 0.8rem;
+  padding-left: 1rem;
+  text-align: center;
+  width: 100%;
+}

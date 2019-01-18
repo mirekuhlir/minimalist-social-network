@@ -1,0 +1,29 @@
+@import '../../../style/variables.scss';
+
+.like-button {
+  width: auto;
+  height: 1.5rem;
+  padding: 0.3rem;
+  background-color: $profile-view-background-color-a;
+  color: $profile-view-headline-text-color-a;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+}
+
+.like-button:hover {
+  color: $navbar-item-hover-color;
+}
+
+.like-button--user-liked {
+  color: $navbar-item-hover-color;
+}
+
+.like-button--user-liked:hover {
+  color: $navbar-item-hover-color;
+}
+
+.fa-thumbs-up {
+  margin-right: 0.3rem;
+}

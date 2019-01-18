@@ -1,0 +1,23 @@
+@import '../../../style/variables.scss';
+
+.profile-list {
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.profiles-list__container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profiles-list__title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $text-large-color-a;
+  margin-top: 1rem;
+  font-weight: 300;
+}

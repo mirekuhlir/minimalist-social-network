@@ -1,0 +1,40 @@
+@import '../../style/variables.scss';
+
+.form__text-input {
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 3rem;
+  width: 100%;
+  border: 0;
+  color: $text-large-color-a;
+  background: $input-text-background-color-a;
+  outline: none;
+
+  &:focus {
+    background: $input-text-focus-background-color-a;
+  }
+}
+
+.is-invalid {
+  background-color: $form-text-input-invalid-background-color-a;
+}
+
+.text-input-invalid-feedback {
+  font-size: 0.9rem;
+  background: inherit;
+  color: $text-large-color-a;
+  padding-top: 0.3rem;
+  padding-bottom: 0.5rem;
+  // border-bottom: 1px solid $text-large-color-a;
+  text-align: center;
+  width: 100%;
+}
+
+// hack for google chrome, field is yelow on autofill
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 30px $input-text-background-color-a inset;
+}

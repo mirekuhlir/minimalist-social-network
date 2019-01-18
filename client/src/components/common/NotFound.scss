@@ -1,0 +1,14 @@
+@import '../../style/common-button.scss';
+
+.not-found {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @include common-button();
+}
+
+.not-found__title {
+  font-size: 1.1rem;
+}

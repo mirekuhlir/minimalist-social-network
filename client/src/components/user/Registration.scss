@@ -1,0 +1,8 @@
+@import '../../style/variables.scss';
+@import '../../style/common-form.scss';
+
+.registration {
+  background-color: $background-main-color-a;
+  height: 100%;
+  @include common-form();
+}

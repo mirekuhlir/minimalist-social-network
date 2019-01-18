@@ -1,0 +1,8 @@
+@import '../../style/variables.scss';
+
+.main {
+  grid-area: main;
+  background-color: $background-main-color-a;
+  width: auto;
+  height: auto;
+}

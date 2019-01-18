@@ -1,0 +1,31 @@
+@import '../../../style/variables.scss';
+@import '../../../style/common-button.scss';
+
+.edit-hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 1rem;
+  width: 100%;
+  @include common-button();
+}
+
+.edit-hobby__hobby-list {
+  margin-top: 1rem;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: $input-text-background-color-a;
+}
+
+.edit-hobby__title {
+  font-size: 1.2rem;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 0.2rem;
+  margin-bottom: 0.5rem;
+  color: $profile-view-headline-text-color-a;
+  width: 100%;
+}

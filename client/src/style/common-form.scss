@@ -1,0 +1,52 @@
+@import './variables.scss';
+
+@mixin common-form() {
+  .common-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .common-form__title {
+    font-size: 1.5rem;
+    color: $text-large-color-a;
+    margin-top: 1rem;
+    font-weight: 300;
+  }
+
+  .common-form__note {
+    color: $text-large-color-a;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    & a {
+      color: $text-large-color-a;
+    }
+    & a:hover {
+      color: $navbar-item-hover-color;
+    }
+  }
+
+  .common-form-group {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 20rem;
+    margin-top: 0.5rem;
+    box-shadow: $box-shadow-a;
+    display: flex;
+    flex-direction: column;
+    background: $input-text-background-color-a;
+  }
+
+  .common-form__button {
+    color: $form-button-text-color-a;
+    font-size: 1.1rem;
+    height: 3rem;
+    border: 0;
+    background-color: $form-button-background-color-a;
+    &:hover {
+      background-color: $form-button-hover-background-color-a;
+    }
+  }
+}

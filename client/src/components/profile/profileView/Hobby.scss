@@ -1,0 +1,15 @@
+@import '../../../style/variables.scss';
+
+.hobby {
+  padding: 0;
+  border: none;
+  background-color: $text-large-color-a;
+  font-weight: bold;
+  color: #e6e6e6;
+  min-width: 4rem;
+
+  border-radius: 4px 4px 4px 4px;
+  text-align: center;
+  padding: 0.2rem 0.4rem;
+  margin: 0.5rem 0.5rem;
+}

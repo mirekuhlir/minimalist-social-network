@@ -1,0 +1,12 @@
+@import '../../style/variables.scss';
+
+.header {
+  grid-area: header;
+  background-color: $header-backgoud-color-a;
+  display: flex;
+  font-size: 1.1rem;
+  align-items: center;
+
+  box-shadow: $navbar-shadow-a;
+  z-index: 100;
+}

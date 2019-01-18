@@ -1,0 +1,43 @@
+@import '../../style/variables.scss';
+@import '../../style/common.scss';
+@import '../../style/common-button.scss';
+
+.my-profile {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  box-sizing: border-box;
+  @include common-button();
+}
+
+.my-profile__create-profile-page {
+  height: 100%;
+  padding-top: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-profile__create-profile-page-title {
+  font-size: 1.3rem;
+  color: $text-large-color-a;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.my-profile__buttons {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  width: $profile-view-window-width-small;
+
+  //large screen/
+  @include media-query-brakepoint(large) {
+    width: $profile-view-window-width-large;
+  }
+}

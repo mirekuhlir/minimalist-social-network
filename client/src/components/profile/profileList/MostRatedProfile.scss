@@ -1,0 +1,23 @@
+@import '../../../style/variables.scss';
+
+.most-rated-profile {
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.most-rated-profile__container {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.most-rated-profile__title {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: $text-large-color-a;
+  margin-top: 1rem;
+  font-weight: 300;
+}
