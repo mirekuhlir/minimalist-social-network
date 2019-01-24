@@ -3,10 +3,11 @@
 @import '../../../style/common-button.scss';
 
 .edit-profile {
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: auto;
+  justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
   @include common-button();
